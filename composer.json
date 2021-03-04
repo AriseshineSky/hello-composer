@@ -1,0 +1,20 @@
+{
+    "name": "ourcodeworld/hello-composer",
+    "description": "My first package",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Sky Zhao",
+            "email": "befruitful12@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ourcodeworld\\hello-composer\\" : "src/"
+        }
+    }
+}
